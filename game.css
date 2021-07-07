@@ -1,0 +1,137 @@
+body {
+    background-image: url(bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background: blur;
+    margin-bottom: 50px;
+    }
+
+.game
+{
+    width: 720px;
+    border: solid 1px #ddd;
+    margin: 0 auto;
+   background: rgb(214, 214, 214);
+border: solid 2px;
+text-align:center;
+min-height:700px;
+}
+
+​
+.btn{
+    border:none;
+    padding: 30px 60px;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+​
+.btn:hover{
+    background:dodgerblue;
+}
+
+​
+.game h3
+{
+padding: 10px;
+background:black;
+color:white;
+}
+
+​
+.game .game-body
+{
+padding: 20px;
+}
+
+​
+.game .game-options
+{
+text-align:center;
+}
+
+.game .card{
+    width: 100px;
+    height: 150px;
+    padding: 10px;
+    border: solid 1px #808080;
+    background-color: rgb(206, 202, 202);
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 20pt;
+    text-align: center;
+    margin: 3px;
+    border:solid 3px;
+}
+
+.status
+{
+display: inline-block;
+background: rgb(235, 219, 129);
+border: solid 1px rgb(0, 0, 0);
+border-radius: 2px;
+padding: 5px 20px;
+margin: 0 auto;
+margin-top: 10px;
+margin-bottom: 10px;
+display:none;
+}
+​​
+.players{
+width: 500px;
+margin: 0 auto;
+margin-top: 20px;
+text-align: center;
+}
+​
+.player{
+    width: 40%;
+    border: solid 5px #f5f5f5;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    margin:1%;
+    vertical-align: top;
+    background:#f5f5f5;
+}
+​
+.player.active{
+    border: solid 5px rgb(255, 0, 0);
+}
+​
+.points{
+    text-align: center;
+    font-size: 50pt;
+    font-weight: bold;
+    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+}
+​
+.deck{
+    float:left;
+    background: white;
+    color:#222;
+    padding: 10px;
+    border-radius:10px;
+    border: double 5px;
+}
+​
+.btn
+{
+ 
+    background:#222;
+    color:white !important;
+    border-radius:0px;
+}
+
+.btn1
+{
+    background:rgb(0, 0, 0);
+    color:rgb(255, 0, 0) !important;
+    border-radius:0px;
+}
